@@ -1,0 +1,1 @@
+/bin/c++     CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/mm0.cpp.o CMakeFiles/main.dir/mm1.cpp.o CMakeFiles/main.dir/mm2.cpp.o CMakeFiles/main.dir/mm3.cpp.o  -o main 

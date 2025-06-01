@@ -1,0 +1,3 @@
+/home/josefa/Tarea1-Compu-Alto-Rendimiento/matrix_multiplication/build/CMakeFiles/rebuild_cache.dir
+/home/josefa/Tarea1-Compu-Alto-Rendimiento/matrix_multiplication/build/CMakeFiles/edit_cache.dir
+/home/josefa/Tarea1-Compu-Alto-Rendimiento/matrix_multiplication/build/CMakeFiles/main.dir

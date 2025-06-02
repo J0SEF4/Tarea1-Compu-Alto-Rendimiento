@@ -245,7 +245,7 @@ int main() {
 
     // --- (iii) Usando tasks ---
     std::cout << "\n--- (iii) Usando tasks ---" << std::endl;
-    for (auto schedule_type : {"static", "dynamic", "guided"}) {  // schedule_type no afecta a tasks, pero lo dejamos para comparar
+    for (auto schedule_type : {"static", "dynamic", "guided"}) { 
     for (int chunkSize : {10, 50, 100}) {
         auto start = std::chrono::high_resolution_clock::now();
 
@@ -260,7 +260,6 @@ int main() {
                     {
                         for (int j = start_row; j < end_row; ++j) {
                             for (int i = 0; i < width; ++i) {
-                                // cálculo mandelbrot
                                 double x = (double(i) / width) * 3.5 - 2.5;
                                 double y = (double(j) / height) * 2.0 - 1.0;
                                 std::complex<double> c(x, y);
@@ -276,7 +275,7 @@ int main() {
                             }
                         }
                     }
-                } // fin for tareas
+                } 
 
                 #pragma omp taskwait
             }
